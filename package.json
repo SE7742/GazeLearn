@@ -1,0 +1,40 @@
+{
+  "name": "gazelearn-core",
+  "version": "0.1.0",
+  "description": "WebEyeTrack-oriented calibration, filtering, fixation detection, and AOI analytics layer.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "ATTRIBUTION.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "gaze",
+    "eye-tracking",
+    "webeyetrack",
+    "calibration",
+    "aoi",
+    "fixation",
+    "thin-plate-spline",
+    "kalman"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vitest": "^4.1.4"
+  }
+}
