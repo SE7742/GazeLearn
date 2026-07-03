@@ -105,12 +105,6 @@ npm run typecheck
 npm run build
 ```
 
-Current local verification:
-
-- 6 test files passed.
-- 72 tests passed.
-- Typecheck passed.
-- Build passed.
 
 ## Attribution
 
